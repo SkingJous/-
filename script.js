@@ -11,7 +11,7 @@ document.getElementById('overtime-form').addEventListener('submit', function(eve
   const actualWorkingHours = (workingDays * 22) + (compensatoryDays * 12) + (leaveDays * 8) - monthlyHours;
 
   // 計算當月超勤金額
-  const overtimePay = actualWorkingHours * 199;
+  const overtimePay = actualWorkingHours * 202;
 
   // 更新結果到頁面
   document.getElementById('overtime-hours').textContent = actualWorkingHours.toFixed(2); // 當月上班時數
